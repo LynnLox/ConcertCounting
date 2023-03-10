@@ -1,5 +1,7 @@
 //console and document are objects
 let countEl = document.getElementById("count-el")
+//Grab the save-el paragrah and store it in a variable called saveEl
+let saveEl = document.getElementById("save-el")
 console.log(countEl)
 
 let count = 0
@@ -16,5 +18,8 @@ function decrement(){
 }
 
 function save(){
-    console.log(count)
+    // saveEl.innerText += count
+    // saveEl.innerText +=" - "
+    let saveCtr = ' ' + count + ' - '
+    saveEl.innerText += saveCtr
 }
