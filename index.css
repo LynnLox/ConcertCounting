@@ -1,20 +1,30 @@
 body{
-    background-image: url("station.jpg");
+    background-image: url("https://images.wallpapersden.com/image/download/billie-eilish-the-world-s-a-little-blurry_bGppbW6UmZqaraWkpJRobWllrWdma2U.jpg");
     background-size: cover;
     font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue';
     font-weight: bold;
     text-align: center;
 }
 
+.container{
+    
+    max-width: 30%;
+    /*stays centered*/
+    margin:auto;
+    /*border: 3px solid #130f0f;
+    border-radius: 5px;*/
+}
+
 h1 {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    color: black;
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: rgb(213, 6, 6);
 }
 
@@ -26,7 +36,7 @@ button {
     padding-top: 10px;  
     padding-bottom: 10px;
     /* default colour if ids arent specified a color */
-    color: white;      
+    color: black;      
     font-weight: bold;
     /*width of the button*/
     width: 200px; 
@@ -36,17 +46,17 @@ button {
 }  
 
 #increment-btn {
-    background: darkred;
+    background: rgb(174, 106, 5);
 }
 
 #save-btn {
-    background: darkgreen;
+    background: rgba(215, 110, 110, 0.815);
 }
 
 #decrement-btn{
-    background: darkblue
+    background:  rgba(8, 148, 97, 0.815);
 }
 
 p{
-    color:black
+    color:white;
 }
