@@ -20,6 +20,8 @@ function decrement(){
 function save(){
     // saveEl.innerText += count
     // saveEl.innerText +=" - "
-    let saveCtr = ' ' + count + ' - '
-    saveEl.innerText += saveCtr
+    let saveCtr = count + ' - '
+    saveEl.textContent += saveCtr
+    // innerText only reads human readable content therefor
+    // we use textContent
 }
