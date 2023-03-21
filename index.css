@@ -1,6 +1,9 @@
 body{
-    background-image: url("https://images.wallpapersden.com/image/download/billie-eilish-the-world-s-a-little-blurry_bGppbW6UmZqaraWkpJRobWllrWdma2U.jpg");
+    background-image: url("images/billie4.jpg");
     background-size: cover;
+    /* position: absolute;
+    top: 10; */
+
     font-family: 'Montserrat', 'Open Sans', 'Helvetica Neue';
     font-weight: bold;
     text-align: center;
@@ -8,7 +11,7 @@ body{
 
 .container{
     background-color: rgba(16, 185, 89, 0.288);
-    max-width: 40%;
+    max-width: 30%;
     /*stays centered*/
     margin: auto;
     border: 3px solid #130f0f;
@@ -29,7 +32,6 @@ h2 {
 }
 
 button {
-    /* border thickness */
     border-width: 2px; 
     border-color: black;
      /*elongates the top portion above the button text*/
@@ -59,4 +61,5 @@ button {
 
 p{
     color:white;
+    margin: 20px;
 }
